@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    body{
+        background:var(--background-color);
+        color:var(--text-color);
+        transition: background 0.8s, color 0.8s;
+    
+    }
+    .dark-theme{
+        --background-color:#000;
+        --text-color:#999;
+        --title-color:#fff;
+    }
+    .logo img{
+       display:none;
+    }
+    nav{
+        position: relative;
+        width:100%;
+        
+    }
+    nav ul {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        
+    }
+    
+    
+    nav ul li a{
+        font-size:12px;
+        color:var(--text-color);
+    }
+    .toggle-btn{
+        width:80px;
+        margin-left: -30px;
+    }
+    #btnText{
+        font-size: 14px;
+    }
+    .content{
+        margin-top: 80%;
+    }
+    .content h1{
+        font-size: 50px;
+    }
+    .image-box{
+       left:50%;
+       top:18%;
+
+    }
+  }
