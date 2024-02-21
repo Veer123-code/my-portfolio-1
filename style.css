@@ -33,7 +33,7 @@ body{
 }
 nav{
     display: flex;
-    padding:10px 0;
+    padding:10px 0; 
     align-items: center;
     position: relative;
 }
@@ -121,12 +121,12 @@ nav ul li:hover a{
 .image-box img:hover{
    border: 5px solid green;
    cursor: pointer;
-   position: absolute;
 }
 .image-box{
     position: absolute;
     /* margin-bottom: 30px; */
-    bottom: 30px; 
+    top:30%;
+    bottom: 50%; 
     right:10%;
    
 }
@@ -176,12 +176,12 @@ nav ul li:hover a{
     position: relative;
     /* background-color: #413f3f; */
     color:white;
-    margin-top:30px;
-    height: 50px;
+    /* height: 50px; */
     display: flex;
     align-items: center;
    justify-content: space-evenly;
    overflow: hidden;
+   margin-top: 20px;
 }
 
 .social-links li{

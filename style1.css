@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     body{
         background:var(--background-color);
         color:var(--text-color);
@@ -13,6 +13,7 @@
     .logo img{
        display:none;
     }
+    
     nav{
         position: relative;
         width:100%;
@@ -20,10 +21,12 @@
     }
     nav ul {
         display:flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        padding:5px 0px ;
+        margin-left: 50px;
         position: absolute;
-        
+       
     }
     
     
@@ -33,10 +36,16 @@
     }
     .toggle-btn{
         width:80px;
-        margin-left: -30px;
+        margin-left: -50px;
+    }
+    .toggle-btn img{
+        width: 12px;
+
+
     }
     #btnText{
-        font-size: 14px;
+        font-size: 12px;
+        margin-left: 10px;
     }
     .content{
         margin-top: 80%;
@@ -50,3 +59,6 @@
 
     }
   }
+  
+  
+  
